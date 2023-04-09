@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import MM1Simulation from './MM1Simulation';
 
 function App() {
-  const [lambda, setLambda] = useState('');
-  const [mu, setMu] = useState('');
-  const [simulationTime, setSimulationTime] = useState('');
-  const [averageWaitTime, setAverageWaitTime] = useState('');
+
+  const [lambda, setLambda] = useState(0);
+  const [mu, setMu] = useState(0);
+  const [simulationTime, setSimulationTime] = useState(0);
+  const [averageWaitTime, setAverageWaitTime] = useState(0);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -20,9 +21,9 @@ function App() {
       <h2>Simulação de filas M/M/1</h2>
       <br></br>
       <form onSubmit={handleSubmit}>
-        
+
         <div>
-          <label htmlFor="lambda">Taxa de chegada dos clientes:      </label>
+          <label htmlFor="lambda">Chegada:     </label>
           <input
             type="number"
             id="lambda"
@@ -34,7 +35,7 @@ function App() {
         </div>
         <br></br>
         <div>
-          <label htmlFor="mu">Taxa de atendimento do atendente: </label>
+          <label htmlFor="mu">Serviço: </label>
           <input
             type="number"
             id="mu"
@@ -56,6 +57,8 @@ function App() {
             required
           />
         </div>
+        <br></br>
+        <br></br>
         <button type="submit">Simular</button>
       </form>
       {averageWaitTime && (

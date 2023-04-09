@@ -1,8 +1,8 @@
-import SimJS from 'simjs';
+const SimJS = require('./sim.js');
 
-SimJS = require('simjs');
 
 class MM1Simulation {
+
   constructor(lambda, mu) {
     this.lambda = lambda; // taxa de chegada dos clientes
     this.mu = mu; // taxa de atendimento do atendente

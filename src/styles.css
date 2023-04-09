@@ -1,0 +1,171 @@
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputMAX,
+.inputTime {
+    display: flex;
+    align-items: center;
+}
+
+.inputMAX p,
+.inputTime p {
+    margin-right: 10px;
+}
+
+.inputMAX input,
+.inputTime input {
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+}
+
+
+.container2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputArrives,
+.inputService {
+    display: flex;
+    align-items: center;
+}
+
+.inputArrives p,
+.inputService p {
+    margin-right: 10px;
+}
+
+.inputArrives input,
+.inputService input {
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+
+.inputArrives input::placeholder,
+.inputService input::placeholder {
+    color: #999;
+}
+
+.inputArrives input:focus,
+.inputService input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.button {
+    padding: 10px;
+}
+
+.buttonSimulate {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonSimulate:hover {
+    background-color: #3e8e41;
+}
+
+.containerResult {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerResult2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.simulacao-tabela {
+    border-collapse: collapse;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.simulacao-tabela th,
+.simulacao-tabela td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.simulacao-tabela th {
+    background-color: #f2f2f2;
+}
+
+.simulacao-tabela tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.simulacao-tabela tbody td {
+    font-weight: bold;
+}
+
+.simulacao-tabelaa {
+    border-collapse: collapse;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.simulacao-tabelaa th,
+.simulacao-tabelaa td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.simulacao-tabelaa th {
+    background-color: #f2f2f2;
+}
+
+.simulacao-tabelaa tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.simulacao-tabelaa tbody td {
+    font-weight: bold;
+}

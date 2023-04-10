@@ -1,11 +1,10 @@
-Teoria das Filas
-______________________________________
+# Teoria das Filas
 
-Live Demo
+# Live Demo
 
 https://teoria-das-filas.vercel.app/
-______________________________________
-Sobre
+
+## Sobre
 
 Aplicação Web para Modelagem Analítica (Teoria das Filas) para
 simulação de problema de filas simples M/M/1. 
